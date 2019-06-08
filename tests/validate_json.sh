@@ -44,7 +44,7 @@ echo 'OK (Valid JSON format)'
 
 # Check Duplicate URL
 echo -n '- Check URL duplicate ... '
-diff <(cat list_url_feeds.json | jq -r 'sort_by(.url) | [.[].url]') <(cat list_url_feeds.json | jq -r '[.[].url] | unique')
+diff <(cat $name_file | jq -r 'sort_by(.url) | [.[].url]') <(cat $name_file | jq -r '[.[].url] | unique')
 if [ $? -ne 0 ]; then
     echo '* Duplicate URL found'
     exit 1
@@ -53,18 +53,18 @@ echo 'OK (No duplicate URL found)'
 
 # Check item order (Sorted by URL)
 echo -n '- Check order of the items ... '
-diff <(cat list_url_feeds.json | jq '. | sort_by(.url)') <(cat list_url_feeds.json | jq .)
+diff <(cat $name_file | jq '. | sort_by(.url)') <(cat $name_file | jq .)
 if [ $? -ne 0 ]; then
     echo '* Invalid order detected.'
     echo 'Please sort items by URL. Prefered order are as below:'
-    cat list_url_feeds.json | jq '. | sort_by(.url)'
+    cat $name_file | jq '. | sort_by(.url)'
     exit 1
 fi
 echo 'OK (Well sorted by URL)'
 
 # Check Feed Format
 echo '- Check feed format from the URLs:'
-list=$(cat list_url_feeds.json | jq -r '.[].url')
+list=$(cat $name_file | jq -r '.[].url')
 for url in $list
 do
     gofeed-cli url $url > /dev/null
@@ -75,7 +75,7 @@ do
     fi
     echo 'OK :' $url
 done
-echo '  - All feed URL are valid to use with gofeed-cli command.'
+echo '   - All feed URLs are valid to use with gofeed-cli command.'
 
 echo
 echo 'ALL TESTS PASSED. READY TO PR or MERGE.'
