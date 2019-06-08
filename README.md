@@ -1,5 +1,4 @@
 [![CircleCI](https://circleci.com/gh/Qithub-BOT/News-Feeds/tree/master.svg?style=svg)](https://circleci.com/gh/Qithub-BOT/News-Feeds/tree/master)
-![Mergify IO](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/Qithub-BOT/News-Feeds&style=flat)
 [![](http://img.shields.io/badge/policy-Qithub%203原則-blue.svg)](https://github.com/Qithub-BOT/Qithub-ORG/wiki/%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC%E3%80%81%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88 "参加ポリシー")
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-brightgreen.svg)
 ![日本語ドキュメント](https://img.shields.io/badge/document-ja-brightgreen.svg)
@@ -82,7 +81,11 @@ $ docker run --rm keinos/gofeed-cli url https://news.yahoo.co.jp/pickup/rss.xml
     }
 ```
 
-- <font color=red>**注意**</font>: 追加する際、URL を基準に ABC 順に並ぶように追記してください。登録順のバイアスがかからないように、**各要素の並び順は URL の ABC 順に並べる仕様**にしています。
+- <font color=red>**注意**</font>: 追加する際、URL を基準に ABC 順に並ぶように追記してください。登録順のバイアスがかからないように、**各要素の並び順は URL の ABC 順に並べる仕様**にしています。面倒な場合は、下記 `jq` コマンドでソート＆上書きをしてください。（要 `jq` コマンド）
+
+    ```shellsession
+    $ cat list_url_feeds_nice.json | jq '. | sort_by(.url)' > list_url_feeds_nice.json
+    ```
 
 ## PR 前の確認
 

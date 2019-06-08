@@ -12,6 +12,10 @@
       "url": "http://feeds.japan.zdnet.com/rss/zdnet/all.rdf"
     },
     {
+      "title": "アキバ PC Watch（インプレス）",
+      "url": "https://akiba-pc.watch.impress.co.jp/data/rss/1.0/ah/feed.rdf"
+    },
+    {
       "title": "ASCII.jp - TECH",
       "url": "https://ascii.jp/it/rss.xml"
     },
