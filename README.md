@@ -83,8 +83,8 @@ $ docker run --rm keinos/gofeed-cli url https://news.yahoo.co.jp/pickup/rss.xml
 
 - <font color=red>**注意**</font>: 追加する際、URL を基準に ABC 順に並ぶように追記してください。登録順のバイアスがかからないように、**各要素の並び順は URL の ABC 順に並べる仕様**にしています。面倒な場合は、下記 `jq` コマンドでソート＆上書きをしてください。（要 `jq` コマンド）
 
-    ```shellsession
-    $ cat list_url_feeds_nice.json | jq '. | sort_by(.url)' > list_url_feeds_nice.json
+    ```bash
+    file=list_url_feeds_nice.json && (rm -f $file && cat | jq '. | sort_by(.url)' > $file) < $file
     ```
 
 ## PR 前の確認
