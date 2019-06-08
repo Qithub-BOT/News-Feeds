@@ -1,8 +1,5 @@
-# Auto merge conditions when PR
 pull_request_rules:
   - name: automatic merge on CircleCI success and review
-    # Merge to master when:
-    #   - Passes CircleCI test + more than 1 approve + no change request
     conditions:
       - base=master
       - status-success=ci/circleci: build
