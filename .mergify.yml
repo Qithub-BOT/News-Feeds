@@ -1,8 +1,9 @@
 pull_request_rules:
   - name: automatic merge on CircleCI success and review
     conditions:
-      - base=master
-      - status-success=ci/circleci: build
+      - author=scala-steward
+      - status-success="ci/circleci: build"
     actions:
       merge:
         method: merge
+        strict: true
