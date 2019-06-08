@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - "status-success=ci/circleci: build"
       - base=master
+      - files~=^list_url*.json
     actions:
       merge:
         method: merge
