@@ -1,0 +1,33 @@
+version: 2
+
+workflows:
+  version: 2
+  test-and-build-docker:
+    jobs:
+      - build
+
+jobs:
+  build:
+    working_directory: /src
+    # Docker image for docker in docker
+    docker:
+      - image: docker:stable-git
+        environment:
+          CIRCLE_TEST_REPORTS: /tmp/test-results
+    steps:
+      - checkout
+      # Prevent docker-in-docker problem
+      - setup_remote_docker
+      - run:
+          name: Makedir for test results
+          command: mkdir -p ${CIRCLE_TEST_REPORTS}
+      - run:
+          name: Install dependencies
+          command: apk update
+      - run:
+          name: Build docker image
+          command: docker build -t feed-validation .
+      - run:
+          name: Run test
+          command: |
+            docker run --rm --entrypoint /src/tests/validate_json.sh feed-validation
