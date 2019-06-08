@@ -152,6 +152,10 @@
     "url": "https://rss.itmedia.co.jp/rss/2.0/news_technology.xml"
   },
   {
+    "title": "東洋経済オンライン",
+    "url": "https://toyokeizai.net/list/feed/rss"
+  },
+  {
     "title": "WIRED.jp",
     "url": "https://wired.jp/rssfeeder/"
   },
