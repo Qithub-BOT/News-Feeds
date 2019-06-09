@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - "status-success=ci/circleci: build"
       - base=master
-      - files~=^list_url*.json
+      - files=['list_url_feeds_nice.json', 'list_url_feeds_niche.json']
     actions:
       merge:
         method: merge
