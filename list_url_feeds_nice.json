@@ -4,6 +4,10 @@
     "url": "http://dsas.blog.klab.org/index.rdf"
   },
   {
+    "title": "mozaic.fm（ポッドキャスト）",
+    "url": "http://feed.mozaic.fm/"
+  },
+  {
     "title": "CNN - 国際ニュース",
     "url": "http://feeds.cnn.co.jp/rss/cnn/cnn.rdf"
   },
@@ -16,6 +20,10 @@
     "url": "http://feeds.japan.zdnet.com/rss/zdnet/all.rdf"
   },
   {
+    "title": "Rebuild（ポッドキャスト）",
+    "url": "http://feeds.rebuild.fm/rebuildfm"
+  },
+  {
     "title": "ロイター - ワールド",
     "url": "http://feeds.reuters.com/reuters/JPWorldNews?format=xml"
   },
@@ -24,8 +32,24 @@
     "url": "http://labs.septeni.co.jp/rss"
   },
   {
+    "title": "アジャイルラジオ（ポッドキャスト）",
+    "url": "https://agileradio.github.io/feed.xml"
+  },
+  {
+    "title": "ajitofm（ポッドキャスト）",
+    "url": "https://ajito.fm/index.xml"
+  },
+  {
     "title": "アキバ PC Watch（インプレス）",
     "url": "https://akiba-pc.watch.impress.co.jp/data/rss/1.0/ah/feed.rdf"
+  },
+  {
+    "title": "EM.FM（ポッドキャスト）",
+    "url": "https://anchor.fm/s/70a2c40/podcast/rss"
+  },
+  {
+    "title": "regonn&curry.fm（ポッドキャスト）",
+    "url": "https://anchor.fm/s/bd61590/podcast/rss"
   },
   {
     "title": "ASCII.jp - TECH",
@@ -56,8 +80,24 @@
     "url": "https://blog.gmo.media/feed/"
   },
   {
+    "title": "かとじゅんの技術日誌",
+    "url": "https://blog.j5ik2o.me/feed"
+  },
+  {
+    "title": "徳丸浩の日記",
+    "url": "https://blog.tokumaru.org/feeds/posts/default"
+  },
+  {
     "title": "クラウド Watch（インプレス）",
     "url": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf"
+  },
+  {
+    "title": "cloudinfra-audio（ポッドキャスト）",
+    "url": "https://cloudinfra.audio/feed"
+  },
+  {
+    "title": "connpass 新着イベント",
+    "url": "https://connpass.com/explore/ja.atom"
   },
   {
     "title": "サイボウズ式",
@@ -88,8 +128,24 @@
     "url": "https://feeds.feedburner.com/GoogleJapanDeveloperRelationsBlog?format=xml"
   },
   {
+    "title": "しがないラジオ（ポッドキャスト）",
+    "url": "https://feeds.soundcloud.com/users/soundcloud:users:294673416/sounds.rss"
+  },
+  {
     "title": "窓の杜 Watch（インプレス）",
     "url": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf"
+  },
+  {
+    "title": "Frasco",
+    "url": "https://frasco.io/feed/"
+  },
+  {
+    "title": "Frontend Weekly",
+    "url": "https://frontendweekly.tokyo/feed"
+  },
+  {
+    "title": "Fukabori.fm（ポッドキャスト）",
+    "url": "https://fukabori.fm/feed.xml"
   },
   {
     "title": "geechs magazine",
@@ -132,12 +188,20 @@
     "url": "https://labs.gree.jp/blog/feed/"
   },
   {
-    "title": "mixi developers - Medium",
+    "title": "過去・現在・未来",
+    "url": "https://maruyama097.blogspot.com/feeds/posts/default"
+  },
+  {
+    "title": "mixi developers",
     "url": "https://medium.com/feed/mixi-developers"
   },
   {
     "title": "Menthas",
     "url": "https://menthas.com/all/rss"
+  },
+  {
+    "title": "mizchi's blog",
+    "url": "https://mizchi.hatenablog.com/feed"
   },
   {
     "title": "All About - NEWS",
@@ -158,6 +222,10 @@
   {
     "title": "Yahoo!ニュース・トピックス - 科学",
     "url": "https://news.yahoo.co.jp/pickup/science/rss.xml"
+  },
+  {
+    "title": "POSTD",
+    "url": "https://postd.cc/feed/"
   },
   {
     "title": "Qiita - セキュリティ・タグ",
@@ -224,6 +292,14 @@
     "url": "https://rss.itmedia.co.jp/rss/2.0/news_technology.xml"
   },
   {
+    "title": "t-wada のブログ",
+    "url": "https://t-wada.hatenablog.jp/feed"
+  },
+  {
+    "title": "たけぞう瀕死ブログ",
+    "url": "https://takezoe.hatenablog.com/feed"
+  },
+  {
     "title": "Mercari Engineering Blog",
     "url": "https://tech.mercari.com/feed"
   },
@@ -248,6 +324,10 @@
     "url": "https://toyokeizai.net/list/feed/rss"
   },
   {
+    "title": "UX MILK",
+    "url": "https://uxmilk.jp/feed"
+  },
+  {
     "title": "WIRED.jp",
     "url": "https://wired.jp/rssfeeder/"
   },
@@ -262,6 +342,10 @@
   {
     "title": "J-CASTニュース",
     "url": "https://www.j-cast.com/atom.xml"
+  },
+  {
+    "title": "Java in the Box Annex",
+    "url": "https://www.javainthebox.com/feeds/posts/default"
   },
   {
     "title": "時事ドットコム - アクセスランキング総合",
@@ -290,6 +374,14 @@
   {
     "title": "こどもとIT（インプレス）",
     "url": "https://www.watch.impress.co.jp/kodomo_it/rss.xml"
+  },
+  {
+    "title": "KENTA / 雑食系エンジニアTV（YouTube）",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_HLK-ksslL-Z_2wiIZDlMg"
+  },
+  {
+    "title": "Java エバンジェリストのブログ - Yoshio Terada",
+    "url": "https://yoshio3.com/feed/"
   },
   {
     "title": "Qiita:Zine",
