@@ -1,190 +1,390 @@
 [
-    {
-      "title": "CNN - 国際ニュース",
-      "url": "http://feeds.cnn.co.jp/rss/cnn/cnn.rdf"
-    },
-    {
-      "title": "CNET Japan - 総合",
-      "url": "http://feeds.japan.cnet.com/rss/cnet/all.rdf"
-    },
-    {
-      "title": "ZDNet Japan",
-      "url": "http://feeds.japan.zdnet.com/rss/zdnet/all.rdf"
-    },
-    {
-      "title": "アキバ PC Watch（インプレス）",
-      "url": "https://akiba-pc.watch.impress.co.jp/data/rss/1.0/ah/feed.rdf"
-    },
-    {
-      "title": "ASCII.jp - TECH",
-      "url": "https://ascii.jp/it/rss.xml"
-    },
-    {
-      "title": "ASCII.jp - 自作PC",
-      "url": "https://ascii.jp/pc/rss.xml"
-    },
-    {
-      "title": "ASCII.jp - 総合",
-      "url": "https://ascii.jp/rss.xml"
-    },
-    {
-      "title": "ASCII.jp － Web Professional",
-      "url": "https://ascii.jp/web/rss.xml"
-    },
-    {
-      "title": "ダ・ヴィンチニュース",
-      "url": "https://b.hatena.ne.jp/davincinews/bookmark.rss"
-    },
-    {
-      "title": "はてなブックーク - テクノロジー",
-      "url": "https://b.hatena.ne.jp/hotentry/it.rss"
-    },
-    {
-      "title": "クラウド Watch（インプレス）",
-      "url": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf"
-    },
-    {
-      "title": "GIGAZINE",
-      "url": "https://gigazine.net/news/rss_2.0/"
-    },
-    {
-      "title": "INTERNET Watch（インプレス）",
-      "url": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf"
-    },
-    {
-      "title": "Engadget Japan",
-      "url": "https://japanese.engadget.com/rss.xml"
-    },
-    {
-      "title": "TechCrunch Japan",
-      "url": "https://jp.techcrunch.com/feed/"
-    },
-    {
-      "title": "家電 Watch（インプレス）",
-      "url": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf"
-    },
-    {
-      "title": "All About - NEWS",
-      "url": "https://news.allabout.co.jp/rss/all_latest/"
-    },
-    {
-      "title": "マイナビニュース",
-      "url": "https://news.mynavi.jp/rss/index.xml"
-    },
-    {
-      "title": "Yahoo!ニュース・トピックス - IT",
-      "url": "https://news.yahoo.co.jp/pickup/computer/rss.xml"
-    },
-    {
-      "title": "Yahoo!ニュース・トピックス - 主要",
-      "url": "https://news.yahoo.co.jp/pickup/rss.xml"
-    },
-    {
-      "title": "Yahoo!ニュース・トピックス - 科学",
-      "url": "https://news.yahoo.co.jp/pickup/science/rss.xml"
-    },
-    {
-      "title": "Qiita - セキュリティ・タグ",
-      "url": "https://qiita.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/feed.atom"
-    },
-    {
-      "title": "All About - スキルアップ",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/bizskill/"
-    },
-    {
-      "title": "All About - 映像/カメラ",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/camera/"
-    },
-    {
-      "title": "All About - パソコン",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/computer/"
-    },
-    {
-      "title": "All About - 症状・病気",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/disease/"
-    },
-    {
-      "title": "All About - 学習",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/examination/"
-    },
-    {
-      "title": "All About - 健康管理",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/health/"
-    },
-    {
-      "title": "All About - IT/インターネット",
-      "url": "https://rss.allabout.co.jp/aa/latest/ch/netpc/"
-    },
-    {
-      "title": "ITmedia - ＠IT",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml"
-    },
-    {
-      "title": "ITmedia - 総合",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml"
-    },
-    {
-      "title": "ITmedia - ねとらぼ",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/netlab.xml"
-    },
-    {
-      "title": "ITmedia - NEWS",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml"
-    },
-    {
-      "title": "ITmedia - 国内",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/news_domestic.xml"
-    },
-    {
-      "title": "ITmedia - 海外",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/news_foreign.xml"
-    },
-    {
-      "title": "ITmedia - セキュリティ",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml"
-    },
-    {
-      "title": "ITmedia - テクノロジー",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/news_technology.xml"
-    },
-    {
-      "title": "WIRED.jp",
-      "url": "https://wired.jp/rssfeeder/"
-    },
-    {
-      "title": "ウィズニュース",
-      "url": "https://withnews.jp/rss/consumer/new.rdf"
-    },
-    {
-      "title": "BUSINESS INSIDER JAPAN",
-      "url": "https://www.businessinsider.jp/feed/atom.xml"
-    },
-    {
-      "title": "時事ドットコム - アクセスランキング総合",
-      "url": "https://www.jiji.com/rss/ranking.rdf"
-    },
-    {
-      "title": "lifehacker Japan",
-      "url": "https://www.lifehacker.jp/feed/index.xml"
-    },
-    {
-      "title": "Newsweek Japan",
-      "url": "https://www.newsweekjapan.jp/story/rss.xml"
-    },
-    {
-      "title": "PHILE WEB",
-      "url": "https://www.phileweb.com/rss.php"
-    },
-    {
-      "title": "ROOMIE（ルーミー）",
-      "url": "https://www.roomie.jp/feed/"
-    },
-    {
-      "title": "こどもとIT（インプレス）",
-      "url": "https://www.watch.impress.co.jp/kodomo_it/rss.xml"
-    },
-    {
-      "title": "Qiita:Zine",
-      "url": "https://zine.qiita.com/feed/"
-    }
-  ]
+  {
+    "title": "DSAS開発者の部屋",
+    "url": "http://dsas.blog.klab.org/index.rdf"
+  },
+  {
+    "title": "mozaic.fm（ポッドキャスト）",
+    "url": "http://feed.mozaic.fm/"
+  },
+  {
+    "title": "CNN - 国際ニュース",
+    "url": "http://feeds.cnn.co.jp/rss/cnn/cnn.rdf"
+  },
+  {
+    "title": "CNET Japan - 総合",
+    "url": "http://feeds.japan.cnet.com/rss/cnet/all.rdf"
+  },
+  {
+    "title": "ZDNet Japan",
+    "url": "http://feeds.japan.zdnet.com/rss/zdnet/all.rdf"
+  },
+  {
+    "title": "Rebuild（ポッドキャスト）",
+    "url": "http://feeds.rebuild.fm/rebuildfm"
+  },
+  {
+    "title": "ロイター - ワールド",
+    "url": "http://feeds.reuters.com/reuters/JPWorldNews?format=xml"
+  },
+  {
+    "title": "Septeni Engineer's Blog",
+    "url": "http://labs.septeni.co.jp/rss"
+  },
+  {
+    "title": "アジャイルラジオ（ポッドキャスト）",
+    "url": "https://agileradio.github.io/feed.xml"
+  },
+  {
+    "title": "ajitofm（ポッドキャスト）",
+    "url": "https://ajito.fm/index.xml"
+  },
+  {
+    "title": "アキバ PC Watch（インプレス）",
+    "url": "https://akiba-pc.watch.impress.co.jp/data/rss/1.0/ah/feed.rdf"
+  },
+  {
+    "title": "EM.FM（ポッドキャスト）",
+    "url": "https://anchor.fm/s/70a2c40/podcast/rss"
+  },
+  {
+    "title": "regonn&curry.fm（ポッドキャスト）",
+    "url": "https://anchor.fm/s/bd61590/podcast/rss"
+  },
+  {
+    "title": "ASCII.jp - TECH",
+    "url": "https://ascii.jp/it/rss.xml"
+  },
+  {
+    "title": "ASCII.jp - 自作PC",
+    "url": "https://ascii.jp/pc/rss.xml"
+  },
+  {
+    "title": "ASCII.jp - 総合",
+    "url": "https://ascii.jp/rss.xml"
+  },
+  {
+    "title": "ASCII.jp － Web Professional",
+    "url": "https://ascii.jp/web/rss.xml"
+  },
+  {
+    "title": "ダ・ヴィンチニュース",
+    "url": "https://b.hatena.ne.jp/davincinews/bookmark.rss"
+  },
+  {
+    "title": "はてなブックーク - テクノロジー",
+    "url": "https://b.hatena.ne.jp/hotentry/it.rss"
+  },
+  {
+    "title": "GMO MEDIA CREATOR BLOG",
+    "url": "https://blog.gmo.media/feed/"
+  },
+  {
+    "title": "かとじゅんの技術日誌",
+    "url": "https://blog.j5ik2o.me/feed"
+  },
+  {
+    "title": "徳丸浩の日記",
+    "url": "https://blog.tokumaru.org/feeds/posts/default"
+  },
+  {
+    "title": "クラウド Watch（インプレス）",
+    "url": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf"
+  },
+  {
+    "title": "cloudinfra-audio（ポッドキャスト）",
+    "url": "https://cloudinfra.audio/feed"
+  },
+  {
+    "title": "connpass 新着イベント",
+    "url": "https://connpass.com/explore/ja.atom"
+  },
+  {
+    "title": "サイボウズ式",
+    "url": "https://cybozushiki.cybozu.co.jp/rss.xml"
+  },
+  {
+    "title": "DevelopersIO",
+    "url": "https://dev.classmethod.jp/feed/"
+  },
+  {
+    "title": "はてな開発者ブログ",
+    "url": "https://developer.hatenastaff.com/rss"
+  },
+  {
+    "title": "CyberAgent Developers Blog",
+    "url": "https://developers.cyberagent.co.jp/blog/feed/"
+  },
+  {
+    "title": "DeNA Engeneer's Blog",
+    "url": "https://engineer.dena.jp/atom.xml"
+  },
+  {
+    "title": "LINE ENGINEERING",
+    "url": "https://engineering.linecorp.com/ja/feed/"
+  },
+  {
+    "title": "Google Developer Japan",
+    "url": "https://feeds.feedburner.com/GoogleJapanDeveloperRelationsBlog?format=xml"
+  },
+  {
+    "title": "しがないラジオ（ポッドキャスト）",
+    "url": "https://feeds.soundcloud.com/users/soundcloud:users:294673416/sounds.rss"
+  },
+  {
+    "title": "窓の杜 Watch（インプレス）",
+    "url": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf"
+  },
+  {
+    "title": "Frasco",
+    "url": "https://frasco.io/feed/"
+  },
+  {
+    "title": "Frontend Weekly",
+    "url": "https://frontendweekly.tokyo/feed"
+  },
+  {
+    "title": "Fukabori.fm（ポッドキャスト）",
+    "url": "https://fukabori.fm/feed.xml"
+  },
+  {
+    "title": "geechs magazine",
+    "url": "https://geechs-magazine.com/feed"
+  },
+  {
+    "title": "GIGAZINE",
+    "url": "https://gigazine.net/news/rss_2.0/"
+  },
+  {
+    "title": "インフラエンジニアway（HEARTBEATS）",
+    "url": "https://heartbeats.jp/hbblog/atom.xml"
+  },
+  {
+    "title": "INTERNET Watch（インプレス）",
+    "url": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf"
+  },
+  {
+    "title": "Engadget Japan",
+    "url": "https://japanese.engadget.com/rss.xml"
+  },
+  {
+    "title": "TechCrunch Japan",
+    "url": "https://jp.techcrunch.com/feed/"
+  },
+  {
+    "title": "家電 Watch（インプレス）",
+    "url": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf"
+  },
+  {
+    "title": "さくらのナレッジ",
+    "url": "https://knowledge.sakura.ad.jp/feed/"
+  },
+  {
+    "title": "SonicGarden 代表 倉貫 義人のブログ",
+    "url": "https://kuranuki.sonicgarden.jp/feed"
+  },
+  {
+    "title": "GREE Engineering Blog",
+    "url": "https://labs.gree.jp/blog/feed/"
+  },
+  {
+    "title": "過去・現在・未来",
+    "url": "https://maruyama097.blogspot.com/feeds/posts/default"
+  },
+  {
+    "title": "mixi developers",
+    "url": "https://medium.com/feed/mixi-developers"
+  },
+  {
+    "title": "Menthas",
+    "url": "https://menthas.com/all/rss"
+  },
+  {
+    "title": "mizchi's blog",
+    "url": "https://mizchi.hatenablog.com/feed"
+  },
+  {
+    "title": "All About - NEWS",
+    "url": "https://news.allabout.co.jp/rss/all_latest/"
+  },
+  {
+    "title": "マイナビニュース",
+    "url": "https://news.mynavi.jp/rss/index.xml"
+  },
+  {
+    "title": "Yahoo!ニュース・トピックス - IT",
+    "url": "https://news.yahoo.co.jp/pickup/computer/rss.xml"
+  },
+  {
+    "title": "Yahoo!ニュース・トピックス - 主要",
+    "url": "https://news.yahoo.co.jp/pickup/rss.xml"
+  },
+  {
+    "title": "Yahoo!ニュース・トピックス - 科学",
+    "url": "https://news.yahoo.co.jp/pickup/science/rss.xml"
+  },
+  {
+    "title": "POSTD",
+    "url": "https://postd.cc/feed/"
+  },
+  {
+    "title": "Qiita - セキュリティ・タグ",
+    "url": "https://qiita.com/tags/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/feed.atom"
+  },
+  {
+    "title": "All About - スキルアップ",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/bizskill/"
+  },
+  {
+    "title": "All About - 映像/カメラ",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/camera/"
+  },
+  {
+    "title": "All About - パソコン",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/computer/"
+  },
+  {
+    "title": "All About - 症状・病気",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/disease/"
+  },
+  {
+    "title": "All About - 学習",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/examination/"
+  },
+  {
+    "title": "All About - 健康管理",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/health/"
+  },
+  {
+    "title": "All About - IT/インターネット",
+    "url": "https://rss.allabout.co.jp/aa/latest/ch/netpc/"
+  },
+  {
+    "title": "ITmedia - ＠IT",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml"
+  },
+  {
+    "title": "ITmedia - 総合",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml"
+  },
+  {
+    "title": "ITmedia - ねとらぼ",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/netlab.xml"
+  },
+  {
+    "title": "ITmedia - NEWS",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml"
+  },
+  {
+    "title": "ITmedia - 国内",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/news_domestic.xml"
+  },
+  {
+    "title": "ITmedia - 海外",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/news_foreign.xml"
+  },
+  {
+    "title": "ITmedia - セキュリティ",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml"
+  },
+  {
+    "title": "ITmedia - テクノロジー",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/news_technology.xml"
+  },
+  {
+    "title": "t-wada のブログ",
+    "url": "https://t-wada.hatenablog.jp/feed"
+  },
+  {
+    "title": "たけぞう瀕死ブログ",
+    "url": "https://takezoe.hatenablog.com/feed"
+  },
+  {
+    "title": "Mercari Engineering Blog",
+    "url": "https://tech.mercari.com/feed"
+  },
+  {
+    "title": "Mercari Engineering Blog",
+    "url": "https://tech.mercari.com/rss"
+  },
+  {
+    "title": "Yahoo! JAPAN Tech Blog",
+    "url": "https://techblog.yahoo.co.jp/atom.xml"
+  },
+  {
+    "title": "クックパッド開発者ブログ",
+    "url": "https://techlife.cookpad.com/rss"
+  },
+  {
+    "title": "VOYAGE GROUP techlog",
+    "url": "https://techlog.voyagegroup.com/rss"
+  },
+  {
+    "title": "東洋経済オンライン",
+    "url": "https://toyokeizai.net/list/feed/rss"
+  },
+  {
+    "title": "UX MILK",
+    "url": "https://uxmilk.jp/feed"
+  },
+  {
+    "title": "WIRED.jp",
+    "url": "https://wired.jp/rssfeeder/"
+  },
+  {
+    "title": "ウィズニュース",
+    "url": "https://withnews.jp/rss/consumer/new.rdf"
+  },
+  {
+    "title": "BUSINESS INSIDER JAPAN",
+    "url": "https://www.businessinsider.jp/feed/atom.xml"
+  },
+  {
+    "title": "J-CASTニュース",
+    "url": "https://www.j-cast.com/atom.xml"
+  },
+  {
+    "title": "Java in the Box Annex",
+    "url": "https://www.javainthebox.com/feeds/posts/default"
+  },
+  {
+    "title": "時事ドットコム - アクセスランキング総合",
+    "url": "https://www.jiji.com/rss/ranking.rdf"
+  },
+  {
+    "title": "lifehacker Japan",
+    "url": "https://www.lifehacker.jp/feed/index.xml"
+  },
+  {
+    "title": "Newsweek Japan",
+    "url": "https://www.newsweekjapan.jp/story/rss.xml"
+  },
+  {
+    "title": "PHILE WEB",
+    "url": "https://www.phileweb.com/rss.php"
+  },
+  {
+    "title": "ROOMIE（ルーミー）",
+    "url": "https://www.roomie.jp/feed/"
+  },
+  {
+    "title": "TECHSCORE BLOG",
+    "url": "https://www.techscore.com/blog/feed/"
+  },
+  {
+    "title": "こどもとIT（インプレス）",
+    "url": "https://www.watch.impress.co.jp/kodomo_it/rss.xml"
+  },
+  {
+    "title": "KENTA / 雑食系エンジニアTV（YouTube）",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_HLK-ksslL-Z_2wiIZDlMg"
+  },
+  {
+    "title": "Java エバンジェリストのブログ - Yoshio Terada",
+    "url": "https://yoshio3.com/feed/"
+  },
+  {
+    "title": "Qiita:Zine",
+    "url": "https://zine.qiita.com/feed/"
+  }
+]
