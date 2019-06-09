@@ -1,5 +1,9 @@
 [
   {
+    "title": "DSAS開発者の部屋",
+    "url": "http://dsas.blog.klab.org/index.rdf"
+  },
+  {
     "title": "CNN - 国際ニュース",
     "url": "http://feeds.cnn.co.jp/rss/cnn/cnn.rdf"
   },
@@ -14,6 +18,10 @@
   {
     "title": "ロイター - ワールド",
     "url": "http://feeds.reuters.com/reuters/JPWorldNews?format=xml"
+  },
+  {
+    "title": "Septeni Engineer's Blog",
+    "url": "http://labs.septeni.co.jp/rss"
   },
   {
     "title": "アキバ PC Watch（インプレス）",
@@ -44,12 +52,56 @@
     "url": "https://b.hatena.ne.jp/hotentry/it.rss"
   },
   {
+    "title": "GMO MEDIA CREATOR BLOG",
+    "url": "https://blog.gmo.media/feed/"
+  },
+  {
     "title": "クラウド Watch（インプレス）",
     "url": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf"
   },
   {
+    "title": "サイボウズ式",
+    "url": "https://cybozushiki.cybozu.co.jp/rss.xml"
+  },
+  {
+    "title": "DevelopersIO",
+    "url": "https://dev.classmethod.jp/feed/"
+  },
+  {
+    "title": "はてな開発者ブログ",
+    "url": "https://developer.hatenastaff.com/rss"
+  },
+  {
+    "title": "CyberAgent Developers Blog",
+    "url": "https://developers.cyberagent.co.jp/blog/feed/"
+  },
+  {
+    "title": "DeNA Engeneer's Blog",
+    "url": "https://engineer.dena.jp/atom.xml"
+  },
+  {
+    "title": "LINE ENGINEERING",
+    "url": "https://engineering.linecorp.com/ja/feed/"
+  },
+  {
+    "title": "Google Developer Japan",
+    "url": "https://feeds.feedburner.com/GoogleJapanDeveloperRelationsBlog?format=xml"
+  },
+  {
+    "title": "窓の杜 Watch（インプレス）",
+    "url": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf"
+  },
+  {
+    "title": "geechs magazine",
+    "url": "https://geechs-magazine.com/feed"
+  },
+  {
     "title": "GIGAZINE",
     "url": "https://gigazine.net/news/rss_2.0/"
+  },
+  {
+    "title": "インフラエンジニアway（HEARTBEATS）",
+    "url": "https://heartbeats.jp/hbblog/atom.xml"
   },
   {
     "title": "INTERNET Watch（インプレス）",
@@ -66,6 +118,26 @@
   {
     "title": "家電 Watch（インプレス）",
     "url": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf"
+  },
+  {
+    "title": "さくらのナレッジ",
+    "url": "https://knowledge.sakura.ad.jp/feed/"
+  },
+  {
+    "title": "SonicGarden 代表 倉貫 義人のブログ",
+    "url": "https://kuranuki.sonicgarden.jp/feed"
+  },
+  {
+    "title": "GREE Engineering Blog",
+    "url": "https://labs.gree.jp/blog/feed/"
+  },
+  {
+    "title": "mixi developers - Medium",
+    "url": "https://medium.com/feed/mixi-developers"
+  },
+  {
+    "title": "Menthas",
+    "url": "https://menthas.com/all/rss"
   },
   {
     "title": "All About - NEWS",
@@ -152,6 +224,26 @@
     "url": "https://rss.itmedia.co.jp/rss/2.0/news_technology.xml"
   },
   {
+    "title": "Mercari Engineering Blog",
+    "url": "https://tech.mercari.com/feed"
+  },
+  {
+    "title": "Mercari Engineering Blog",
+    "url": "https://tech.mercari.com/rss"
+  },
+  {
+    "title": "Yahoo! JAPAN Tech Blog",
+    "url": "https://techblog.yahoo.co.jp/atom.xml"
+  },
+  {
+    "title": "クックパッド開発者ブログ",
+    "url": "https://techlife.cookpad.com/rss"
+  },
+  {
+    "title": "VOYAGE GROUP techlog",
+    "url": "https://techlog.voyagegroup.com/rss"
+  },
+  {
     "title": "東洋経済オンライン",
     "url": "https://toyokeizai.net/list/feed/rss"
   },
@@ -190,6 +282,10 @@
   {
     "title": "ROOMIE（ルーミー）",
     "url": "https://www.roomie.jp/feed/"
+  },
+  {
+    "title": "TECHSCORE BLOG",
+    "url": "https://www.techscore.com/blog/feed/"
   },
   {
     "title": "こどもとIT（インプレス）",
