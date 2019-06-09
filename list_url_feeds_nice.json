@@ -168,6 +168,10 @@
     "url": "https://www.businessinsider.jp/feed/atom.xml"
   },
   {
+    "title": "J-CASTニュース",
+    "url": "https://www.j-cast.com/atom.xml"
+  },
+  {
     "title": "時事ドットコム - アクセスランキング総合",
     "url": "https://www.jiji.com/rss/ranking.rdf"
   },
