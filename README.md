@@ -91,14 +91,23 @@ $ docker run --rm keinos/gofeed-cli url https://news.yahoo.co.jp/pickup/rss.xml
 
 PR 時に自動的にテストが実行されます。少なくとも、このテストをパスしないと PR はマージされません。
 
-PR 前にローカルでテストしたい場合は、以下のコマンドでテスト可能です。（要 `docker` および `docker-compose`）
+そこで、**PR 前にローカルでテストしたい場合は `run-test.sh` を実行**するとテストが可能です。（要 `docker` および `docker-compose`）
 
 ```shellsession
 $ ./run-test.sh
+...（省略）
+**************
+ Test success
+**************
+Removing tests_sut_1 ... done
+Removing image tests_sut
+Total reclaimed space: 0B
+Total reclaimed space: 0B
 ```
 
 - 主なテスト内容
   - JSON ファイルの構文チェック
+  - `U+0008`（BACKSPACE, `\b`) などの不可視の潜在文字チェック
   - URL の重複登録チェック
   - 各フィードの要素の並び順（URL の ABC 順）
   - URL 先のフィードのダウンロードと解析

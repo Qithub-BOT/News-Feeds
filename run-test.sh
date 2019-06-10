@@ -27,7 +27,6 @@ trap "
     docker-compose -f tests/docker-compose.test.yml down --rmi local --remove-orphans --volumes
     docker container prune -f
     docker image prune -f
-    docker volume prune -f
 " 0
 
 result=0
