@@ -24,11 +24,13 @@ if [ $? -ne 0 ]; then
 fi
 
 trap "
-    docker-compose -f docker-compose.test.yml down --rmi local --remove-orphans --volumes
+    docker-compose -f tests/docker-compose.test.yml down --rmi local --remove-orphans --volumes
+    docker container prune -f
+    docker image prune -f
 " 0
 
 result=0
-docker-compose -f docker-compose.test.yml up --build --exit-code-from sut --abort-on-container-exit
+docker-compose -f tests/docker-compose.test.yml up --build --exit-code-from sut --abort-on-container-exit
 if [ $? -ne 0 ]; then
     result=1
     echo '********************************************************'

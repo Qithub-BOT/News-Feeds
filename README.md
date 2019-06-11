@@ -9,24 +9,28 @@
 
 **[Qiita](https://qiita.com/)/[Qiitadon](https://qiitadon.com/) ユーザー向けのニュース・フィード集**（JSON 形式の RSS/ATOM の URL 集）です。
 
-フィード一覧は２種類用意しています。各種サイネージ表示や自家製アプリなど、各自の責任でご自由にご利用ください。
+- [list_url_feeds_nice.json](https://github.com/Qithub-BOT/News-Feeds/blob/master/list_url_feeds_nice.json)
+- [list_url_feeds_niche.json](https://github.com/Qithub-BOT/News-Feeds/blob/master/list_url_feeds_niche.json)
+
+フィード一覧は上記の２つ用意しています。各種サイネージ表示や自家製アプリなど、各自の責任でご自由にご利用ください。
 
 - `list_url_feeds_nice.json`
   - 一般的なフィードの URL 一覧です。（JSON 形式）
-  - ソース: https://github.com/Qithub-BOT/News-Feeds/blob/master/list_url_feeds_nice.json
+  - ソース: https://github.com/Qithub-BOT/News-Feeds/blob/master/list_url_feeds_nice.json @ [GitHub](https://github.com/Qithub-BOT/News-Feeds)
   - ダウンロード: https://qithub-bot.github.io/News-Feeds/list_url_feeds_nice.json
 - `list_url_feeds_niche.json`
   - ニッチなフィードの URL 一覧です。（JSON 形式）
-  - ソース: https://github.com/Qithub-BOT/News-Feeds/blob/master/list_url_feeds_niche.json
+  - ソース: https://github.com/Qithub-BOT/News-Feeds/blob/master/list_url_feeds_niche.json @ [GitHub](https://github.com/Qithub-BOT/News-Feeds)
   - ダウンロード: https://qithub-bot.github.io/News-Feeds/list_url_feeds_niche.json
-- リポジトリ
-  - https://github.com/Qithub-BOT/News-Feeds @ GitHub
 
 ## フィードの追加方法
 
-**Qiita/Qiitadon ユーザーであれば自由に追加可能**です。
+**Qiita/Qiitadon ユーザーであれば自由に追加可能**です。PR（Pull Request）が CI テストをパスすると、自動的にマージされます。
 
-URL が登録可能か確認後、このリポジトリをローカルに `clone` し、追加した変更（フィード URL の追記）を PR してください。
+1. URL が登録可能か確認
+2. リポジトリの `clone`
+3. フィード URL の追記（必要ならローカル・テストを実行）
+4. 変更を PR
 
 ### 追加できるフィードの種類
 
@@ -34,15 +38,31 @@ URL が登録可能か確認後、このリポジトリをローカルに `clone
   - 特にジャンル／嗜好は定めていませんが、**Qiita/Qiitadon のユーザーが欲しいと思う情報のフィード**であれば自由です。（禁止フィード除く）
   - 「禁止フィードではないが、マニアックすぎて極一部の人にしかニーズがない」と思うフィードは `list_url_feeds_niche.json` に追加してください。
 - フィードの書式
-  - Atom/RSS 形式の XML ファイル（RSS 0.90〜2.0, Atom 0.3, 1.0）の URL
-    - `gofeed-cli` コマンドで解析できるフィードの URL であればフィード形式は問いません。
-    - 逆に言えば **`gofeed-cli` コマンドで解析できるフィードのみ登録可**とします。（確認方法は「登録可能なフィード URL か確認する」を参照）
+  - [`gofeed-cli` コマンド](https://github.com/KEINOS/gofeed-cli)で解析できるフィードの URL であればフィード形式は問いませんが、以下のフィード・バージョンに対応しています。
+    - Atom 0.3, 1.0
+    - RSS 0.90 〜 2.0
+    - `gofeed-cli` コマンドの説明と使い方は、下記「登録可能なフィード URL か確認する」を参照ください。
+
+### PR（Pull Request）とマージ
+
 - PR するブランチ
-  - `master` ブランチで OK。
+  - `master` ブランチで OK です。
+- マージ
+  - PR されると要件のテストが行われ、パスすると自動的にマージされます。事前に要件を網羅しているか確認する方法は、下記「PR 前の確認（ローカル・テスト）」を参照ください。
 
 ### 登録可能なフィード URL か確認する
 
-登録したいフィードの URL を下記 Docker コマンドで確認してください。フィードの内容が JSON 形式で表示されれば登録可能です。（要 Docker）
+このフィード一覧に追加できる URL は **`gofeed-cli` コマンドで解析できるフィード URL のみ登録可能**としています。
+
+`gofeed-cli` コマンドは、Go 言語で書かれた RSS/Atom フィードを解析し、JSON 形式に変換するコマンドです。以下の書式で URL 先のフィードを取得・解析します。
+
+```bash
+gofeed-cli url [フィードのURL]
+```
+
+しかし、このコマンドは自身でコンパイルが必要なため、Docker で `keinos/gofeed-cli` を使う方法を推奨しています。
+
+例えば、"Yahoo!ニュース" のフィードの場合は、以下の Docker コマンドで確認できます。フィードの内容が JSON 形式で表示されれば、そのフィードは登録可能です。
 
 ```shellsession
 $ # Yahoo!ニュースのフィードの例
@@ -50,9 +70,9 @@ $ docker run --rm keinos/gofeed-cli url https://news.yahoo.co.jp/pickup/rss.xml
 ...(JSON形式で表示)...
 ```
 
-### フィード URL の追記
+### フィード URL の追記の仕方
 
-追加したいサイトの名前とフィードの URL を以下の要素で `list_url_feeds.json` に追記してください。
+追加したいサイトの名前とフィードの URL を、テキスト・エディタなどで `list_url_feeds.json` に追記してください。要素の書式は以下の通りです。
 
 ```json
     {
@@ -61,7 +81,7 @@ $ docker run --rm keinos/gofeed-cli url https://news.yahoo.co.jp/pickup/rss.xml
     }
 ```
 
-- <font color=red>**注意**</font>: 追加する際、URL を基準に ABC 順に並ぶように追記してください。<br>登録順のバイアスがかからないように、**各要素の並び順は URL の ABC 順に並べる仕様**にしています。面倒な場合は、下記 `jq` コマンドでソート＆上書きをしてください。（要 `jq` コマンド）
+- <font color=red>**注意**: 追加する際、URL で ABC 順に並べて（ソートした状態で）追記してください。</font><br>これは、登録順のバイアスがかからないように**各要素の並び順は URL の ABC 順に並べる仕様**にしています。要素の挿入箇所を探すのが面倒な場合は、一旦最下部に追記し、下記コマンドでソート＆上書きをすると便利です。（要 `jq` コマンド）
 
     ```bash
     file=list_url_feeds_nice.json && (rm -f $file && cat | jq '. | sort_by(.url)' > $file) < $file
@@ -71,27 +91,32 @@ $ docker run --rm keinos/gofeed-cli url https://news.yahoo.co.jp/pickup/rss.xml
 
 PR 時に自動的にテストが実行されます。少なくとも、このテストをパスしないと PR はマージされません。
 
-PR 前にローカルでテストしたい場合は、以下のコマンドでテスト可能です。（要 `docker` および `docker-compose`）
+そこで、**PR 前にローカルでテストしたい場合は `run-test.sh` を実行**するとテストが可能です。（要 `docker` および `docker-compose`）
 
 ```shellsession
 $ ./run-test.sh
+...（省略）
+**************
+ Test success
+**************
+Removing tests_sut_1 ... done
+Removing image tests_sut
+Total reclaimed space: 0B
+Total reclaimed space: 0B
 ```
 
 - 主なテスト内容
   - JSON ファイルの構文チェック
+  - `U+0008`（BACKSPACE, `\b`) などの不可視の潜在文字チェック
   - URL の重複登録チェック
   - 各フィードの要素の並び順（URL の ABC 順）
   - URL 先のフィードのダウンロードと解析
 
-### 自動マージ
-
-現在、PR 時のテストをパスすると自動的にマージされるようになっています。イタズラなどが目立つようになった場合など、今後変わる可能性もあります。
-
-### 禁則事項
+## 禁則事項
 
 - 不正な登録をパスさせるような各種コードの改変は禁止です。
 
-### フィードの削除
+## フィードの削除について
 
 登録が自由であるのと同じように**他のユーザーの判断でフィードも削除さる可能性があります**。
 

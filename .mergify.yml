@@ -1,8 +1,18 @@
 pull_request_rules:
-  - name: automatic merge on CircleCI success
+  - name: automatic merge on CircleCI success if nice.json is changed
     conditions:
       - "status-success=ci/circleci: build"
       - base=master
+      - files=list_url_feeds_nice.json
+    actions:
+      merge:
+        method: merge
+        strict: true
+  - name: automatic merge on CircleCI success if niche.json is changed
+    conditions:
+      - "status-success=ci/circleci: build"
+      - base=master
+      - files=list_url_feeds_niche.json
     actions:
       merge:
         method: merge
