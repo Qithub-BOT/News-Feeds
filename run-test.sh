@@ -33,12 +33,12 @@ result=0
 docker-compose -f tests/docker-compose.test.yml up --build --exit-code-from sut --abort-on-container-exit
 if [ $? -ne 0 ]; then
     result=1
-    echo '********************************************************'
-    echo ' Test fail. See the sut_1 lines above about the error.'
-    echo '********************************************************'
+    echo '************************************************************'
+    echo ' ❌ Test failed. See the sut_1 lines above about the error.'
+    echo '************************************************************'
     exit 1
 fi
-echo '**************'
-echo ' Test success'
-echo '**************'
+echo '********************'
+echo ' ✅ Test successed'
+echo '********************'
 exit 0
